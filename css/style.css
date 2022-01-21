@@ -10,8 +10,8 @@
 
     --button-radius: 35px;
 
-    --font-primary: "Raleway";
-    --font-secondary: "Open Sans";
+    --font-primary: "Open Sans";
+    --font-secondary: "Raleway";
 }
 
 * {
@@ -19,5 +19,52 @@
 }
 
 body {
+    font-family: var(--font-primary);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1352px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 3px 6px #00000029;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nav-logo {
     font-family: var(--font-secondary);
+    color: var(--color-primary);
+    font-size: 32px;
+    font-weight: 300;
+    padding: 16px 0;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu a{
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 28px 47px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--color-grey);
+}
+
+.menu a:hover {
+    color: var(--color-black);
+    box-shadow: 0 4px 0 0 var(--color-primary);
 }
