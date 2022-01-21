@@ -42,6 +42,13 @@ section {
     align-items: center;
 }
 
+h2 {
+    font-family: var(--font-secondary);
+    color: var(--color-black);
+    font-weight: 400;
+    font-size: 36px;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -117,4 +124,73 @@ nav {
 .opening-image {
     width: 100%;
     height: auto;
+}
+
+.stats-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 120px 0;
+}
+
+.stats-title {
+    margin: 0 0 100px 0;
+}
+
+.stats-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.stats-single {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 92px;
+    max-width: 176px;
+}
+
+.stats-number {
+    font-family: var(--font-secondary);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 14px 0 19px 0;
+}
+
+.stats-caption {
+    font-family: var(--font-secondary);
+    color: var(--color-grey);
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.dot {
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 15px 0 0;
+}
+
+.dot-image {
+    position: absolute;
+    left: 30px;
+    top: 3px;
+}
+
+.dot-red {
+    background: var(--color-redish);
+}
+
+.dot-blue {
+    background: var(--color-primary);
+}
+
+.dot-green {
+    background: var(--color-green);
 }
