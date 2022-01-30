@@ -741,4 +741,39 @@ nav .nav-logo {
     cursor: pointer;
   }
 }
+
+.opening .opening-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 130px 0 0 0;
+}
+.opening .opening-image {
+  width: 100%;
+  height: auto;
+}
+.opening .opening-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  margin: 20px 0 38px 0;
+}
+.opening .opening-button {
+  background: #08A6E4;
+  color: #FFFFFF;
+  padding: 22px 0;
+  width: calc(100% - 4rem);
+  max-width: 27rem;
+  margin: 0 2rem;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 40px;
+  box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+}
+@media (min-width: 768px) {
+  .opening .opening-button {
+    width: 27rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */

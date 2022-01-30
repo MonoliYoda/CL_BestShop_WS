@@ -1,0 +1,41 @@
+.opening {
+
+    
+    .opening-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin: 130px 0 0 0;
+    }
+    .opening-image {
+        width: 100%;
+        height: auto;
+    }
+    .opening-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: $color-black;
+        margin: 20px 0 38px 0;
+    }
+    .opening-button {
+        background: $color-primary;
+        color: $color-white;
+        padding: 22px 0;
+        width: calc(100% - 4rem);
+        max-width: 27rem;
+        margin: 0 2rem;
+        text-align: center;
+        font-weight: 700;
+        border-radius: 40px;
+        box-shadow: 5px 10px 14px $color-primary-shadow;
+    }
+    img {
+    }
+
+    @media (min-width: $breakpoint-sm) {
+        .opening-button {
+            width: 27rem;
+        }
+    }
+}
