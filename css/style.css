@@ -96,7 +96,7 @@ nav {
     margin: 130px 0 0 0;
 }
 
-.opening-title {
+h1 {
     font-family: var(--font-secondary);
     font-weight: 400;
     font-size: 49px;
@@ -311,4 +311,173 @@ nav {
 .benefit-image-trumpet {
     height: 207px;
     margin: 98px 0 0 62px;
+}
+
+
+.pricing {
+    padding: 100px 0;
+}
+
+.pricing-title {
+    text-align: center;
+    margin: 0 0 50px 0;
+
+}
+
+.pricing-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing-box {
+    width: 372px;
+    height: 461px;
+    border-radius: 18px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.box-red {
+    border: 1px solid var(--color-redish);
+}
+
+.box-blue {
+    border: 1px solid var(--color-primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+}
+
+.box-green {
+    border: 1px solid var(--color-green);
+}
+
+.box-large {
+    width: 405px;
+    height: 500px;
+}
+
+.pricing-box-heading {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.pricing-box-price {
+    text-align: center;
+    font-family: var(--font-primary);
+    font-size: 46px;
+    font-weight: 300;
+    margin: 14px 0 15px 0;
+}
+
+.price-red {
+    color: var(--color-redish);
+}
+
+.price-blue {
+    color: var(--color-primary);
+}
+
+.price-green {
+    color: var(--color-green);
+}
+
+.limited-offer {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.pricing-box-features {
+    padding: 70px 0 0 0;
+    text-align: center;
+    margin: 20px;
+    color: var(--color-black);
+    font-size: 14px;
+}
+
+.pricing-box-features-lg {
+    padding: 30px 0 0 0;
+    text-align: center;
+    margin: 20px;
+    color: var(--color-black);
+    font-size: 14px;
+}
+
+.pricing-box-features li {
+    margin: 20px 0 22px 0;
+}
+
+.pricing-box-features-lg li {
+    margin: 30px 0 25px 0;
+}
+
+.box-large h3 {
+    padding: 10px 0;
+}
+
+.checkmark::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Ckechmark-1.svg");
+}
+
+.crossmark::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Close.svg");
+}
+
+.spacer {
+    margin: 25px 0;
+}
+
+.pricing-button {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-white);
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    padding: 16px 0;
+}
+
+.pricing-button-lg {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--color-white);
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 23px;
+    padding: 16px 0;
+}
+
+.contact {
+    padding: 80px 100px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-col {
+    width: 50%;
+}
+
+
+.contact-info .mail::before {
+
 }
