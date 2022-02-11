@@ -1,0 +1,63 @@
+.stats {
+    .dot {
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .dot-image-person {
+        position: absolute;
+        left: 30px;
+        top: 3px;
+    }
+    
+    .dot-image-eye {
+        position: absolute;
+        left: 21px;
+        top: 13px;
+    }
+    
+    .dot-image-catalog {
+        position: absolute;
+        left: 30px;
+        top: 8px;
+    }
+    .stats-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 100px 0 120px 0;
+    }
+    
+    .stats-title {
+        margin: 4rem 0 4rem 0;
+        text-align: center;
+    }
+    
+    .stats-single {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 40px;
+        max-width: 176px;
+    }
+    
+    .stats-number {
+        font-family: $font-heading;
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        letter-spacing: 6px;
+        margin: 14px 0 19px 0;
+    }
+    
+    .stats-caption {
+        font-family: $font-heading;
+        color: $color-grey;
+        font-size: 17px;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 20px;
+    }
+}

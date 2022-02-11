@@ -30,3 +30,16 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.color-red {
+    background: $color-redish;
+}
+
+.color-blue {
+    background: $color-primary;
+}
+
+.color-green {
+    background: $color-green;
+}
+

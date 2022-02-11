@@ -169,42 +169,6 @@ nav {
     padding: 0 20px;
 }
 
-.dot {
-    width: 63px;
-    height: 63px;
-    border-radius: 50%;
-    position: relative;
-}
-
-.dot-image-person {
-    position: absolute;
-    left: 30px;
-    top: 3px;
-}
-
-.dot-image-eye {
-    position: absolute;
-    left: 21px;
-    top: 13px;
-}
-
-.dot-image-catalog {
-    position: absolute;
-    left: 30px;
-    top: 8px;
-}
-
-.color-red {
-    background: var(--color-redish);
-}
-
-.color-blue {
-    background: var(--color-primary);
-}
-
-.color-green {
-    background: var(--color-green);
-}
 
 .benefits {
     background: var(--color-light-grey);

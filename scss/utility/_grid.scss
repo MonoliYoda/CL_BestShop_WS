@@ -7,6 +7,7 @@ $column-base-width: math.div(100%, $columns);
     display: flex;
     flex-wrap: wrap;
     margin: -0.5rem;
+    justify-content: center;
 
     [class*="col-"] {
         min-height: 1px;
